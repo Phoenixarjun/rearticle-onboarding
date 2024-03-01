@@ -1,17 +1,17 @@
-import { Suspense } from "react";
-import { Link, Outlet } from "react-router-dom";
+import Navbar from "../components/ui/Navbar";
+import Sidebar from "../components/ui/Sidebar";
+import DashboardContent from "../components/ui/DashboardContent";
+import { Outlet } from "react-router-dom";
 
 const DashboardLayout = () => {
   return (
-    <div className="flex">
-      <div className="flex flex-col gap-y-4">
-        <Link to="/dashboard">All Projects</Link>
-        <Link to="/dashboard/my-projects">My Projects</Link>
-        <Link to="/dashboard/shared-projects">Shared Projects</Link>
+    <div>
+      <Navbar />
+      <div className="flex gap-3">
+        <Sidebar />
+        <DashboardContent />
+        {/* <Outlet /> */}
       </div>
-      <Suspense fallback={<p>Loading...</p>}>
-        <Outlet />
-      </Suspense>
     </div>
   );
 };

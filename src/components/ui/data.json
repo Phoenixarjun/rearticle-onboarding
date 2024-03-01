@@ -1,0 +1,48 @@
+{
+  "data": [
+    { 
+      "file_image": "https://randomurl1.com",
+      "name": "Machine Learning Based Classification and Modelling of Underwater Acoustic ...",
+      "Category": "IEEE Transactions",
+      "Shared_with": [
+        {"color": "green"},
+        {"color": "yellow"},
+        {"color": "blue"}
+      ],
+      "Last_Modified": "2 Days Ago"
+    },
+    {
+      "file_image": "https://randomurl2.com",
+      "name": "IoT Based Coal Mine Safety System using LoRaWAN",
+      "Category": "IEEE Transactions",
+      "Shared_with": [
+        {"color": "green"},
+        {"color": "yellow"},
+        {"color": "red"}
+      ],
+      "Last_Modified": "1 Day Ago"
+    },
+    {
+      "file_image": "https://randomurl3.com",
+      "name": "Deep Learning for Electrical and Electronics Engineering",
+      "Category": "Wiley",
+      "Shared_with": [
+        { "color": "green"},
+        { "color": "red"},
+        { "color": "yellow"}
+      ],
+      "Last_Modified": "6 Days Ago"
+    },
+    {
+      "file_image": "https://randomurl4.com",
+      "name": "Machine Vision Based Self-docking system for Marine Robots",
+      "Category": "Elsevier",
+      "Shared_with": [
+        { "color": "green"},
+        { "color": "yellow"},
+        { "color": "blue"}
+      ],
+      "Last_Modified": "2 Weeks Ago"
+    }
+  ]
+}
