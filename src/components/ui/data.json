@@ -44,5 +44,23 @@
       ],
       "Last_Modified": "2 Weeks Ago"
     }
+  ],
+  "navLinks" :[
+    {
+      "image" : "https://randomurl4.com",
+      "label" : "Your Papers"
+    },{
+      "image" : "https://randomurl4.com",
+      "label" : "Shared Papers"
+    },{
+      "image" : "https://randomurl4.com",
+      "label" : "Features"
+    },{
+      "image" : "https://randomurl4.com",
+      "label" : "Settings"
+    },{
+      "image" : "https://randomurl4.com",
+      "label" : "Manage"
+    }
   ]
 }
